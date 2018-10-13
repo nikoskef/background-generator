@@ -17,6 +17,23 @@ h1 {
 	width: 100%;
 }
 
+button {
+    margin: 4px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+
+}
+
+button:hover {
+    background-color: blue; 
+    color: white;
+}
+
 #myInput  {
 	font: 900 1em 'Raleway', sans-serif;
 	width: 70%;
